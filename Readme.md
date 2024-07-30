@@ -8,7 +8,7 @@ Pneumonia is a respiratory condition that inflames the air sacs in one or both l
 
 ## Setup and Data Loading
 
-The code provided sets up the environment, including importing necessary libraries and connecting to a Google Cloud link to access the dataset. It then loads the chest X-ray data for training and testing, ensuring balanced representation between normal and pneumonia cases.
+The code provided sets up the environment, including importing necessary libraries and connecting to a Google Cloud link to access the dataset. It then loads the chest X-ray data for training and testing, ensuring a balanced representation between normal and pneumonia cases.
 
 ## Data Preprocessing
 
@@ -16,7 +16,7 @@ The data is preprocessed, mapping filenames to corresponding (image, label) pair
 
 ## Model Architecture
 
-The CNN model architecture is defined, comprising convolutional and dense layers. The architecture is inspired by a referenced article and is designed to extract features from chest X-ray images effectively.
+The CNN model architecture is defined as comprising convolutional and dense layers. The architecture is inspired by a referenced article and is designed to extract features from chest X-ray images effectively.
 
 ## Addressing Data Imbalance
 
